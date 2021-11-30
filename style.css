@@ -1,0 +1,97 @@
+
+body {
+    font-family: ainslie-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+/*------ Navigationsbar ------*/
+
+.logo {
+    width: 160px;
+}
+
+.hotbar {
+    background-color: #7B90B2;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+
+/*--------- Dropdown menu-------*/
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-right: 1px solid black;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: black;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #979797;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+
+
+/*---------- MEDIA RES ---------*/
+
+@media only screen and (min-width: 900px) {
+.openbtn {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 900px) {
+
+    .top a {
+        display: none;
+    }
+}
