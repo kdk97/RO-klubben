@@ -1,9 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: ainslie-sans, sans-serif;
     font-weight: 600;
     font-style: normal;
+    background-image: url('billeder/signaturbillede.png');
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
 }
+
 /*------ Navigationsbar ------*/
 
 .logo {
@@ -84,9 +102,9 @@ body {
 /*---------- MEDIA RES ---------*/
 
 @media only screen and (min-width: 900px) {
-.openbtn {
-    display: none;
-}
+    .openbtn {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 900px) {
