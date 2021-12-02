@@ -1,0 +1,118 @@
+.fuck1 {
+    width: 80%;
+    margin: 70px auto;
+    display: flex;
+    align-content: center;
+    border-radius: 20px;
+}
+/*Line&rikke afsnit*/
+.flexbox {
+    background-color: #C0CDE5;
+    padding: 5%;
+    display: flex;
+}
+
+.img1 {
+    float: right;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.beskrivelse1 {
+    float: left;
+    text-align: left;
+    padding-right: 5%;
+}
+
+/*line*/
+.flexbox1 {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.img2 {
+    width: 40%;
+    border-radius: 20px;
+}
+
+.beskrivelse2 {
+    display: flex;
+    margin: 5%;
+}
+
+/*Rikke*/
+
+.flexbox3 {
+    background-color: #C0CDE5;
+    padding: 5%;
+    display: flex;
+}
+
+.img3 {
+    width: 40%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.button {
+    background-color: #F2D49C;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    color: black;
+    cursor: pointer;
+    font-size: 1 rem;
+    text-align: center;
+    line-height: 40px;
+    z-index: 5;
+    justify-content: center;
+    margin-top: 15px;
+    text-decoration: none;
+    border: 1px #F2D49C;
+}
+
+@media only screen and (min-width: 900px) {
+    .openbtn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .top a {
+        display: none;
+    }
+
+    /*video*/
+    .fuck1 {
+        margin: 30px auto;
+    }
+    /*line&rikke*/
+    .flexbox {
+        flex-direction: column-reverse;
+    }
+
+    .img1 {
+        width: 100%;
+        display: flex;
+    }
+    /*Line*/
+    .flexbox1 {
+        flex-direction: column;
+    }
+
+    .img2 {
+        width: 100%;
+        display: flex;
+    }
+
+    /*rikke*/
+    .flexbox3 {
+        flex-direction: column-reverse;
+    }
+
+    .img3 {
+        width: 100%;
+    }
+}
