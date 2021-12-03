@@ -1,0 +1,83 @@
+p {
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.fuck1 {
+    width: 80%;
+    margin: 70px auto;
+    display: flex;
+    align-content: center;
+    border-radius: 20px;
+}
+
+.div1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    background-color: #EBF0F7;
+    align-items: center;
+}
+
+.div1 img {
+    max-width: 500px;
+    object-fit:cover;
+    border-radius: 20px; 
+}
+
+.div1 p {
+    max-width: 500px;
+    padding-right: 10%;
+}
+
+.div1 h2 {
+    text-align: center;
+    padding-right: 10%
+}
+
+svg {
+    max-height: 11cm;
+    max-width: 500px;
+
+}
+
+
+.div2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    background-color: #EBF0F7;
+    align-items: center;
+}
+
+.div2 p {
+    max-width: 500px;
+    
+}
+
+.div2 h2 {
+    text-align: center;
+    padding-right: 10%
+}
+
+
+
+#hvid {
+    background-color: white;
+}
+
+
+@media only screen and (max-width: 900px) {
+    /*video*/
+    .fuck1 {
+        margin: 30px auto;
+    }
+}
