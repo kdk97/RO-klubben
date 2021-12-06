@@ -17,14 +17,18 @@ body {
 .hotbar {
     overflow: hidden;
     background-color: #7B90B2;
-    display: flex;
-    justify-content: center;
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.top a{
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.top a {
     float: left;
+    flex-grow: 1;
     display: block;
     color: white;
     text-align: center;
@@ -92,9 +96,10 @@ body {
 /*---------- MEDIA RES ---------*/
 
 @media only screen and (min-width: 900px) {
-    .openbtn {
-        display: none;
-    }
+  
+#main {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 900px) {
