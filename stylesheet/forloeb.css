@@ -1,0 +1,175 @@
+p {
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.fuck1 {
+    width: 80%;
+    margin: 70px auto;
+    display: flex;
+    align-content: center;
+    border-radius: 20px;
+}
+
+.div1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    background-color: #EBF0F7;
+    align-items: center;
+}
+
+.div1 img {
+    max-width: 500px;
+    object-fit:cover;
+    border-radius: 20px; 
+}
+
+.div1 p {
+    max-width: 500px;
+    padding-right: 10%;
+}
+
+.div1 h2 {
+    text-align: center;
+    padding-right: 10%
+}
+
+svg {
+    max-height: 11cm;
+    max-width: 500px;
+
+}
+
+
+.div2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    background-color: #EBF0F7;
+    align-items: center;
+}
+
+.div2 p {
+    max-width: 500px;
+    
+}
+
+.div2 h2 {
+    text-align: center;
+    padding-right: 10%
+}
+
+.div3 {
+    background-color: #EBF0F7;
+    justify-content: center;
+    display: flex;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+}
+
+.div3 h2 {
+    text-align: center;
+    margin-bottom: 1cm;
+}
+
+
+.div3 img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.div3 h3 {
+    color: #f2d49c;
+    text-align: center;
+}
+
+.div3box2 {
+    display: flex;
+}
+
+.person {
+    background-color: #7B90B2;
+    width: 350px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.div3 p {
+    text-align: left;
+    color: white;
+}
+
+.div4 {
+   text-align: center; 
+   width: 80%;
+   margin-right: 10%;
+   margin-left: 10%;
+   padding-top: 2cm;
+}
+
+.div4 img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#hvid {
+    background-color: white;
+}
+
+
+@media only screen and (max-width: 900px) {
+    /*video*/
+    .fuck1 {
+        margin: 30px auto;
+    }
+
+    .div1 {
+        display: block;
+    }
+    .div1 img { 
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    .div1 p {
+        max-width: 100%;
+        padding-right: 0%;
+    }
+
+    .div2 {
+        display: block;
+    }
+
+    svg {
+        max-height: 11cm;
+        max-width: 100%;
+    }
+
+    .div3box2 {
+        display: block;
+    }
+
+    .person {
+        margin-bottom: 10px;
+        width: 80%;
+    }
+
+
+
+
+
+
+
+}
