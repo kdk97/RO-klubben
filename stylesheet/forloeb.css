@@ -73,6 +73,7 @@ svg {
     justify-content: center;
     display: flex;
     padding-top: 2cm;
+    padding-bottom: 2cm;
 }
 
 .div3 h2 {
@@ -98,7 +99,7 @@ svg {
 .person {
     background-color: #7B90B2;
     width: 350px;
-    margin-left: px;
+    margin-left: 70px;
     margin-right: 70px;
     padding: 20px;
     border-radius: 50px;
@@ -108,6 +109,14 @@ svg {
 .div3 p {
     text-align: left;
     color: white;
+}
+
+.div4 {
+   text-align: center; 
+   width: 80%;
+   margin-right: 10%;
+   margin-left: 10%;
+   padding-top: 2cm;
 }
 
 #hvid {
