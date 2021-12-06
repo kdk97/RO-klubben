@@ -19,12 +19,12 @@ videoObserver.observe(video1);
 
 
 
-document.getElementById("video-1").addEventListener("mouseover", function() {
-	this.play();
+document.getElementById("video-1").addEventListener("mouseover", function () {
+    this.play();
 });
 
-document.getElementById("video-1").addEventListener("mouseleave", function() {
-	this.pause();
+document.getElementById("video-1").addEventListener("mouseleave", function () {
+    this.pause();
 });
 
 // img
@@ -43,10 +43,12 @@ function handler(entries) {
         }
     }
 }
-const observer = new IntersectionObserver(handler, {threshold: 0.1});
+const observer = new IntersectionObserver(handler, { threshold: 0.1 });
 
-const img = document.getElementById("image-1");
-img
-    .classList
-    .add("fade-scale-in");
-observer.observe(img);
+const transitionImages = document.querySelectorAll(".transition-images");
+for (const img of transitionImages) {
+    img
+        .classList
+        .add("fade-scale-in");
+    observer.observe(img);
+}

@@ -12,18 +12,18 @@ p {
 }
 /*Line&rikke afsnit*/
 .flexbox {
-    background-color: #C0CDE5;
+    background-color: #EBF0F7;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 2cm;
     padding-bottom: 2cm;
     display: flex;
+    align-items: center;
 }
 
 .img1 {
     object-fit: cover;
-    float: right;
     width: 40%;
     border-radius: 20px;
 }
@@ -43,6 +43,11 @@ p {
     padding-right: 5%;
 }
 
+h2 {
+    text-align: center;
+    margin-bottom: 1%;
+}
+
 /*line*/
 .flexbox1 {
     width: 100%;
@@ -51,38 +56,30 @@ p {
     padding-top: 2cm;
     padding-bottom: 2cm;
     display: flex;
-}
-
-.img2 {
-    width: 40%;
-    border-radius: 20px;
-    object-fit: cover;
+    align-items: center;
 }
 
 .beskrivelse2 {
     padding-left: 5%;
-}
 
-.beskrivelse2 h2{
-    text-align: center;
 }
 
 /*Rikke*/
 
 .flexbox3 {
-    background-color: #C0CDE5;
+    background-color: #EBF0F7;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 2cm;
     padding-bottom: 2cm;
     display: flex;
+    align-items: center;
+
 }
 
-.img3 {
-    width: 40%;
-    border-radius: 20px;
-    object-fit: cover;
+.beskrivelse3 {
+    padding-right: 5%;
 }
 
 /*Knapper i bunden*/
