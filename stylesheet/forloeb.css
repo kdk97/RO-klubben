@@ -68,7 +68,47 @@ svg {
     padding-right: 10%
 }
 
+.div3 {
+    background-color: #EBF0F7;
+    justify-content: center;
+    display: flex;
+    padding-top: 2cm;
+}
 
+.div3 h2 {
+    text-align: center;
+    margin-bottom: 1cm;
+}
+
+
+.div3 img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.div3 h3 {
+    color: #f2d49c;
+    text-align: center;
+}
+
+.div3box2 {
+    display: flex;
+}
+
+.person {
+    background-color: #7B90B2;
+    width: 350px;
+    margin-left: px;
+    margin-right: 70px;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.div3 p {
+    text-align: left;
+    color: white;
+}
 
 #hvid {
     background-color: white;
