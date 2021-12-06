@@ -134,4 +134,42 @@ svg {
     .fuck1 {
         margin: 30px auto;
     }
+
+    .div1 {
+        display: block;
+    }
+    .div1 img { 
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    .div1 p {
+        max-width: 100%;
+        padding-right: 0%;
+    }
+
+    .div2 {
+        display: block;
+    }
+
+    svg {
+        max-height: 11cm;
+        max-width: 100%;
+    }
+
+    .div3box2 {
+        display: block;
+    }
+
+    .person {
+        margin-bottom: 10px;
+        width: 80%;
+    }
+
+
+
+
+
+
+
 }
