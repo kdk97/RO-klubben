@@ -1,3 +1,8 @@
+p {
+    line-height: 1.5;
+    font-weight: 300;
+}
+
 .fuck1 {
     width: 80%;
     margin: 70px auto;
@@ -8,44 +13,69 @@
 /*Line&rikke afsnit*/
 .flexbox {
     background-color: #C0CDE5;
-    padding: 5%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
     display: flex;
 }
 
 .img1 {
+    object-fit: cover;
     float: right;
     width: 40%;
     border-radius: 20px;
 }
 
+.fade-scale-in {
+    transform: scale(0.7);
+    opacity: 0;
+}
+
+.fade-scale-in.transition {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1);
+    opacity: 1;
+}
+
 .beskrivelse1 {
-    float: left;
-    text-align: left;
     padding-right: 5%;
 }
 
 /*line*/
 .flexbox1 {
-    padding: 5%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
     display: flex;
-    align-items: center;
 }
 
 .img2 {
     width: 40%;
     border-radius: 20px;
+    object-fit: cover;
 }
 
 .beskrivelse2 {
-    display: flex;
-    margin: 5%;
+    padding-left: 5%;
+}
+
+.beskrivelse2 h2{
+    text-align: center;
 }
 
 /*Rikke*/
 
 .flexbox3 {
     background-color: #C0CDE5;
-    padding: 5%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
     display: flex;
 }
 
@@ -55,9 +85,20 @@
     object-fit: cover;
 }
 
+/*Knapper i bunden*/
+
+.flexbox4 {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 50px;
+
+}
+
 .button {
     background-color: #F2D49C;
-    width: 130px;
+    width: 200px;
     height: 40px;
     border-radius: 30px;
     color: black;
@@ -65,12 +106,24 @@
     font-size: 1 rem;
     text-align: center;
     line-height: 40px;
+    transition: 0.3s;
+    opacity: 0.6;
     z-index: 5;
     justify-content: center;
     margin-top: 15px;
     text-decoration: none;
     border: 1px #F2D49C;
 }
+
+.button:hover {opacity: 1;
+}
+
+.button:active {
+    background-color: #977a43;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+    
 
 @media only screen and (min-width: 900px) {
     .openbtn {
