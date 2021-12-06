@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/tilmelding.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="hotbar">
+        <div class="top">
+            <a href="forloeb.html">Forløb</a>
+            <a href="guides.html">Guides</a>
+            <a href="/index.html"><img class="logo" src="/billeder/RO-klubbenLogoHvid.png" alt="Logo"></a>
+            <a href="omos.html">Om os</a>
+            <a href="tilmeld.html">Tilmeld</a>
+        </div>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="/index.html">Forside</a>
+            <a href="forloeb.html">Forløb</a>
+            <a href="guides.html">Guides</a>
+            <a href="omos.html">Om os</a>
+            <a href="tilmeld.html">Tilmeld</a>
+        </div>
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ Menu</button>
+        </div>
+    </div>
+
+    <h1>Tak for din tilmelding!</h1>
+
+    <img class="logokvit" src="/billeder/RO-klubben.png" alt="Logo">
+
+    <div class="boks2">
+        <h2>Dine informationer:</h2>
+        <div class="tekst2">
+            <p>Fornavn:</p>
+            <p id="fornavn"></p>
+        </div>
+        <div class="tekst2">
+            <p>Efternavn:</p>
+            <p id="efternavn"></p>
+        </div>
+        <div class="tekst2">
+            <p>Alder:</p>
+            <p id="alder"></p>
+        </div>
+        <div class="tekst2">
+            <p>Telefonnummer:</p>
+            <p id="telefonnummer"></p>
+        </div>
+        <div class="tekst2">
+            <p>Email:</p>
+            <p id="email"></p>
+        </div>
+    </div>
+
+    <script>
+        const url = new URL(window.location.href);
+        document.getElementById("fornavn").innerText = url.searchParams.get("fornavn")
+        document.getElementById("efternavn").innerText = url.searchParams.get("efternavn")
+        document.getElementById("alder").innerText = url.searchParams.get("alder")
+        document.getElementById("telefonnummer").innerText = url.searchParams.get("telefonnummer")
+        document.getElementById("email").innerText = url.searchParams.get("email")
+    </script>
+</body>
+</html>
