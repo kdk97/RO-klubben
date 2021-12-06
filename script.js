@@ -9,7 +9,7 @@ function openNav() {
     document.getElementById("main").style.marginLeft= "0";
   }
 
-  // SVG animation
+// SVG animation
 function transitionHandler(entries, observer) {
   for (const entry of entries) {
       if (entry.isIntersecting) {
@@ -30,5 +30,7 @@ const svgs = document.querySelectorAll("svg");
 for (const svg of svgs) {
 transitionObserver.observe(svg);
 }
+
+
 
 

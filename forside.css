@@ -1,6 +1,19 @@
+body {
+    background-image: url('billeder/signaturbillede.png');
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
 /*--------- Forside -----------*/
+
+h1{
+    padding-bottom: 1%;
+    padding-top: 3%;
+}
+
 .logo2 {
-    width: 400px;
+    width: 600px;
     display: block;
     margin: auto;
     margin-top: 15%;
@@ -28,7 +41,7 @@
 }
 
 .contentbox {
-    max-width: 1200px;
+    max-width: 80%;
     display: block;
     margin: auto;
 }
@@ -55,7 +68,7 @@
     display: flex;
     margin: auto;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 80%;
     padding: 2%;
 }
 
@@ -69,7 +82,9 @@
     position: relative;
     width: 754px;
     height: 292px;
-    margin: 115px auto 0
+    margin: 115px auto 0;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 .hi-slide .hi-next,
@@ -158,4 +173,189 @@
     margin-top: 15px;
     text-decoration: none;
     border: 1px #F2D49C;
+}
+
+/*---------- Video ----------*/
+
+video{
+    max-width: 80%;
+    padding: 5%;
+    display: block;
+    margin: auto;
+}
+
+/*---------- MEDIA RES ---------*/
+
+@media only screen and (max-width: 900px) {
+
+    /*--------- Forside -----------*/
+
+    .logo2 {
+        width: 400px;
+        display: block;
+        margin: auto;
+        margin-top: 15%;
+    }
+
+    .gold {
+        color: #F2D49C;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .arrow {
+        width: 7%;
+        display: block;
+        margin: auto;
+        padding: 2%;
+    }
+
+    .whitebox {
+        background-color: white;
+        width: 100%;
+        margin: 0 auto;
+        z-index: 1;
+    }
+
+    .contentbox {
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+    .text {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .imgbox {
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .order {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .icons {
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        max-width: 1200px;
+        padding: 2%;
+    }
+
+    .icon {
+        height: 120px;
+    }
+
+
+    /*---------- Slideshow ----------*/
+    .hi-slide {
+        position: relative;
+        width: 754px;
+        height: 292px;
+        margin: 115px auto 0;
+        max-width: 70%;
+        margin-right: 250px;
+    }
+
+    .hi-slide .hi-next,
+    .hi-slide .hi-prev {
+        position: absolute;
+        top: 50%;
+        width: 40px;
+        height: 80px;
+        margin-top: -40px;
+        border-radius: 5px;
+        line-height: 80px;
+        text-align: center;
+        cursor: pointer;
+        background-color: #666;
+        color: #fff;
+        opacity: .7;
+        transition: all .6s;
+        font-size: 30px
+    }
+
+    .hi-slide .hi-next:hover,
+    .hi-slide .hi-prev:hover {
+        opacity: 1;
+        background-color: #444;
+    }
+
+    .hi-slide .hi-prev {
+        left: 150px;
+        z-index: 10;
+
+    }
+
+    .hi-slide .hi-prev::before {
+        content: '<';
+    }
+
+    .hi-slide .hi-next {
+        right: -200px;
+        z-index: 10;
+    }
+
+    .hi-slide .hi-next::before {
+        content: '>';
+    }
+
+    .hi-slide>ul {
+        list-style: none;
+        position: relative;
+        width: 754px;
+        height: 292px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hi-slide>ul>li {
+        overflow: hidden;
+        position: absolute;
+        z-index: 0;
+        left: 377px;
+        top: 146px;
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        background-color: #333;
+        cursor: pointer;
+    }
+
+    .hi-slide>ul>li>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /*---------- Button ----------*/
+    .button {
+        background-color: #F2D49C;
+        width: 130px;
+        height: 40px;
+        border-radius: 30px;
+        color: black;
+        cursor: pointer;
+        font-size: 1 rem;
+        text-align: center;
+        line-height: 40px;
+        z-index: 5;
+        justify-content: center;
+        margin-top: 15px;
+        text-decoration: none;
+        border: 1px #F2D49C;
+    }
+
+
 }
