@@ -77,7 +77,7 @@
                     </a>
                 </div>
             </div>
-            <img src="billeder/Rikke-Line.png" alt="Rikke og line" class="imgbox">
+            <img src="billeder/Rikke-Line.png" alt="Rikke og line" class="imgbox transition-images">
         </div>
     </div>
 
@@ -361,10 +361,10 @@
     </div>
 
     <div class="whitebox">
-        <video id="video1" controls src="video-1634546219.mp4"></video>
+        <video id="video1" controls src="Video-om-os-ro-kubben.mp4"></video>
 
     </div>
-    
+
     <div class="slide hi-slide">
         <div class="hi-prev"></div>
         <div class="hi-next"></div>
@@ -393,6 +393,35 @@
         </div>
     </div>
     <script src="script.js"></script>
+    <script>
+        function handler(entries) {
+            for (const entry of entries) {
+                if (entry.isIntersecting) {
+                    entry
+                        .target
+                        .classList
+                        .add("transition");
+                } else {
+                    entry
+                        .target
+                        .classList
+                        .remove("transition")
+                }
+            }
+        }
+        const observer = new IntersectionObserver(handler, {
+            threshold: 0.1
+        });
+
+
+        const transitionImages = document.querySelectorAll(".transition-images");
+        for (const img of transitionImages) {
+            img
+                .classList
+                .add("fade-scale-in");
+            observer.observe(img);
+        }
+    </script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="jquery.hislide.js"></script>
     <script>

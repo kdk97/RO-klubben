@@ -66,6 +66,7 @@ p{
     border-radius: 10px;
     margin: 5%;
     margin-top: 100px;
+    object-fit: cover;
 }
 
 .order {
@@ -83,6 +84,17 @@ p{
 
 .icon {
     height: 250px;
+}
+
+.fade-scale-in {
+    transform: scale(0.7);
+    opacity: 0;
+}
+
+.fade-scale-in.transition {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1);
+    opacity: 1;
 }
 
 
@@ -184,13 +196,17 @@ p{
     border: 1px #F2D49C;
 }
 
+
+
 /*---------- Video ----------*/
 
 video{
-    max-width: 80%;
-    padding: 5%;
+    max-width: 70%;
     display: block;
     margin: auto;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 /*---------- MEDIA RES ---------*/
@@ -368,6 +384,17 @@ video{
         text-decoration: none;
         border: 1px #F2D49C;
     }
+
+    /*---------- Video ----------*/
+
+video{
+    max-width: 90%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 
 }
