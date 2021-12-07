@@ -108,7 +108,37 @@ h2{
     padding: 16px;
 }
 
+/*-FOOTER-*/
 
+.footer {
+    padding: 2% 10% 1% 10%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+	color: black;
+	background-color: whitesmoke;
+	border-top: #979797 solid 0.1px;
+	margin: auto;
+    justify-content: space-between;
+}
+
+.some_image {
+	width: 32px;
+	margin-right: 16px;
+}
+
+.footerlinks {
+	color: black;
+}
+
+.some-icons {
+    margin-left: 30px;
+}
+
+.some {
+    width: 60px;
+}
 
 /*---------- MEDIA RES ---------*/
 
