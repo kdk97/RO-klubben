@@ -7,16 +7,23 @@ body {
 
 /*--------- Forside -----------*/
 
-h1{
+h2{
     padding-bottom: 1%;
     padding-top: 3%;
+   
+}
+
+p{
+    font-weight: 300;
+    line-height: 1.5;
+    
 }
 
 .logo2 {
     width: 600px;
     display: block;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 
 .gold {
@@ -52,11 +59,13 @@ h1{
     margin: 5%;
 }
 
+
 .imgbox {
     width: 40%;
     float: right;
     border-radius: 10px;
     margin: 5%;
+    margin-top: 100px;
 }
 
 .order {
@@ -82,7 +91,7 @@ h1{
     position: relative;
     width: 754px;
     height: 292px;
-    margin: 115px auto 0;
+    margin: 40px auto 0;
     padding-bottom: 5%;
     margin-bottom: 5%;
 }
@@ -98,7 +107,7 @@ h1{
     line-height: 80px;
     text-align: center;
     cursor: pointer;
-    background-color: #666;
+    background-color: #F2D49C;
     color: #fff;
     opacity: .7;
     transition: all .6s;
@@ -108,7 +117,7 @@ h1{
 .hi-slide .hi-next:hover,
 .hi-slide .hi-prev:hover {
     opacity: 1;
-    background-color: #444
+    background-color: #F0C77B
 }
 
 .hi-slide .hi-prev {
@@ -191,7 +200,7 @@ video{
     /*--------- Forside -----------*/
 
     .logo2 {
-        width: 400px;
+        width: 300px;
         display: block;
         margin: auto;
         margin-top: 15%;
@@ -201,6 +210,7 @@ video{
         color: #F2D49C;
         text-align: center;
         padding: 5%;
+        font-size: 20px;
     }
 
     .arrow {
@@ -257,19 +267,21 @@ video{
 
 
     /*---------- Slideshow ----------*/
+
     .hi-slide {
         position: relative;
-        width: 754px;
+        width: 100%;
         height: 292px;
-        margin: 115px auto 0;
-        max-width: 70%;
-        margin-right: 250px;
+        margin: 40px auto 0;
+        max-width: 100%;
+        display: block;
+        margin-left: -0%;
     }
 
     .hi-slide .hi-next,
     .hi-slide .hi-prev {
         position: absolute;
-        top: 50%;
+        top: 35%;
         width: 40px;
         height: 80px;
         margin-top: -40px;
@@ -277,7 +289,7 @@ video{
         line-height: 80px;
         text-align: center;
         cursor: pointer;
-        background-color: #666;
+        background-color: #F2D49C;
         color: #fff;
         opacity: .7;
         transition: all .6s;
@@ -287,11 +299,11 @@ video{
     .hi-slide .hi-next:hover,
     .hi-slide .hi-prev:hover {
         opacity: 1;
-        background-color: #444;
+        background-color: #F0C77B;
     }
 
     .hi-slide .hi-prev {
-        left: 150px;
+        left: 8%;
         z-index: 10;
 
     }
@@ -301,7 +313,7 @@ video{
     }
 
     .hi-slide .hi-next {
-        right: -200px;
+        right: 5%;
         z-index: 10;
     }
 
@@ -312,7 +324,7 @@ video{
     .hi-slide>ul {
         list-style: none;
         position: relative;
-        width: 754px;
+        width: 100%;
         height: 292px;
         margin: 0;
         padding: 0;
@@ -322,7 +334,7 @@ video{
         overflow: hidden;
         position: absolute;
         z-index: 0;
-        left: 377px;
+        left: 60px;
         top: 146px;
         width: 0;
         height: 0;
