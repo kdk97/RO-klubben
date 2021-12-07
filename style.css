@@ -29,6 +29,9 @@ h2{
 .logo {
     height: 50px;
 }
+#orange {
+    color: #f2d49c;
+}
 
 .hotbar {
     overflow: hidden;
