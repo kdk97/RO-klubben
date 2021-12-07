@@ -3,6 +3,12 @@ p {
     line-height: 1.5;
 }
 
+ul {
+    font-weight: 300;
+    line-height: 1.5;
+    margin-left: 5%;
+}
+
 .fuck1 {
     width: 80%;
     margin: 70px auto;
@@ -31,7 +37,6 @@ p {
 
 .div1 p {
     max-width: 500px;
-    padding-right: 10%;
 }
 
 .div1 h2 {
