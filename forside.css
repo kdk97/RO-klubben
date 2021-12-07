@@ -385,5 +385,16 @@ video{
         border: 1px #F2D49C;
     }
 
+    /*---------- Video ----------*/
+
+video{
+    max-width: 90%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 
 }
