@@ -39,6 +39,10 @@ body {
     font-size: 17px;
 }
 
+.active {
+    text-decoration: underline !important;
+}
+
 /*--------- Dropdown menu-------*/
 .sidebar {
     height: 100%;
