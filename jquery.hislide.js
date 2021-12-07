@@ -88,6 +88,67 @@
 
         ];
 
+        if(window.innerWidth < 900){
+            var states = [{
+                $zIndex: 1,
+                width: 64,
+                height: 83,
+                top: 69,
+                left: 200,
+                $opacity: 0.2
+            },
+            {
+                $zIndex: 3,
+                width: 107,
+                height: 139,
+                top: 35,
+                left: 50,
+                $opacity: 0.7
+            },
+            {
+                $zIndex: 4,
+                width: 158,
+                height: 203,
+                top: 0,
+                left: 90,
+                $opacity: 1
+            },
+            {
+                $zIndex: 3,
+                width: 107,
+                height: 139,
+                top: 35,
+                left: 180,
+                $opacity: 0.7
+            },
+            {
+                $zIndex: 1,
+                width: 64,
+                height: 83,
+                top: 69,
+                left: 160,
+                $opacity: 0.2
+            },
+            {
+                $zIndex: 1,
+                width: 64,
+                height: 83,
+                top: 69,
+                left: 140,
+                $opacity: 0.2
+            },
+            {
+                $zIndex: 1,
+                width: 64,
+                height: 83,
+                top: 69,
+                left: 120,
+                $opacity: 0.2
+            }
+
+        ];
+        }
+
 
         var $lis = $ele.find('li');
         var timer = null;
