@@ -23,7 +23,7 @@ p{
     width: 600px;
     display: block;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 
 .gold {
@@ -65,6 +65,7 @@ p{
     float: right;
     border-radius: 10px;
     margin: 5%;
+    margin-top: 100px;
 }
 
 .order {
@@ -199,7 +200,7 @@ video{
     /*--------- Forside -----------*/
 
     .logo2 {
-        width: 200px;
+        width: 300px;
         display: block;
         margin: auto;
         margin-top: 15%;
