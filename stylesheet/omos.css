@@ -93,33 +93,7 @@ h2 {
 
 }
 
-.button {
-    background-color: #F2D49C;
-    width: 200px;
-    height: 40px;
-    border-radius: 30px;
-    color: black;
-    cursor: pointer;
-    font-size: 1 rem;
-    text-align: center;
-    line-height: 40px;
-    transition: 0.3s;
-    z-index: 5;
-    justify-content: center;
-    margin-top: 15px;
-    text-decoration: none;
-    border: 1px #F2D49C;
-}
-
-.button:hover {opacity: 1;
-}
-
-.button:active {
-    background-color: #7B90B2;
-    opacity: 0.6;
-    transform: translateY(4px);
-  }
-    
+/*media res*/
 
 @media only screen and (min-width: 900px) {
     .openbtn {
