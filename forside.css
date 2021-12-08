@@ -271,7 +271,7 @@ video{
         margin: 40px auto 0;
         max-width: 100%;
         display: block;
-        margin-left: -0%;
+        margin-left: 0%;
     }
 
     .hi-slide .hi-next,

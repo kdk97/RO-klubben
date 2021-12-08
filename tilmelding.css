@@ -34,10 +34,11 @@ p {
     display: block;
     margin: auto;
     border: 1px solid black;
-    width: 40%;
+    width: 30%;
     text-align: center;
     border-radius: 10px;
     margin-bottom: 2%;
+    margin-top: 3%;
 }
 
 .boks div {
@@ -138,6 +139,7 @@ h2{
         width: 60%;
         text-align: center;
         border-radius: 10px;
+        margin-bottom: 3%;
     }
     
     .boks div {
@@ -159,6 +161,7 @@ h2{
         width: 80%;
         border-radius: 10px;
         margin-top: 5%;
+        margin-bottom: 5%;
     }
     
     .button {
