@@ -9,12 +9,18 @@ ul {
     margin-left: 5%;
 }
 
-.fuck1 {
-    width: 80%;
+.vid1 {
+    max-width: 500px;
     margin: 70px auto;
     display: flex;
     align-content: center;
     border-radius: 20px;
+}
+
+.banner{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 
 .div1 {
@@ -30,6 +36,7 @@ ul {
 }
 
 .div1 img {
+    max-height: 11cm;
     max-width: 500px;
     object-fit:cover;
     border-radius: 20px; 
@@ -99,6 +106,10 @@ svg {
 
 .div3box2 {
     display: flex;
+}
+
+.space {
+    margin-left: 10%;
 }
 
 .person {
