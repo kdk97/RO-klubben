@@ -98,7 +98,23 @@ h2 {
 .button:active {
     background-color: #F2D49C;
     transform: translateY(1px);
-  }
+}
+
+  /*top banner*/
+.banner{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 /*--------- Dropdown menu-------*/
 .sidebar {
