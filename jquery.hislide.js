@@ -95,6 +95,7 @@
                 height: 83,
                 top: 69,
                 left: 200,
+                right: 200,
                 $opacity: 0.2
             },
             {
@@ -103,6 +104,7 @@
                 height: 139,
                 top: 35,
                 left: 50,
+                right: 50,
                 $opacity: 0.7
             },
             {
@@ -111,6 +113,7 @@
                 height: 203,
                 top: 0,
                 left: 90,
+                right: 150,
                 $opacity: 1
             },
             {
@@ -119,6 +122,7 @@
                 height: 139,
                 top: 35,
                 left: 180,
+                right: 180,
                 $opacity: 0.7
             },
             {
@@ -127,6 +131,7 @@
                 height: 83,
                 top: 69,
                 left: 160,
+                right: 160,
                 $opacity: 0.2
             },
             {
@@ -135,6 +140,7 @@
                 height: 83,
                 top: 69,
                 left: 140,
+                right: 140,
                 $opacity: 0.2
             },
             {
@@ -143,6 +149,7 @@
                 height: 83,
                 top: 69,
                 left: 120,
+                right: 120,
                 $opacity: 0.2
             }
 
