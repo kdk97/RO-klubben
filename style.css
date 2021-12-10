@@ -124,7 +124,7 @@ h2 {
     z-index: 100;
     top: 0;
     left: 0;
-    background-color: whitesmoke;
+    background-color: white;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -180,7 +180,7 @@ h2 {
     align-items: center;
     text-align: center;
     color: black;
-    background-color: whitesmoke;
+    background-color: #c0cde5;
     border-top: #979797 solid 0.1px;
     margin: auto;
     justify-content: space-between;
