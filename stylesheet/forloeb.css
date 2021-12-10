@@ -261,6 +261,12 @@ svg {
     }
 
     .person {
+        margin: 0,auto;
+    }
+
+
+    .person {
+        margin: auto;
         margin-bottom: 10px;
         width: 80%;
     }
