@@ -22,7 +22,7 @@ function transitionHandler(entries, observer) {
 }
 
 const transitionObserver = new IntersectionObserver(transitionHandler, {
-  threshold: 1,
+  threshold: 0.6,
 });
 
 const svgs = document.querySelectorAll("svg");
