@@ -7,7 +7,7 @@
 
             speed: 1000,
 
-            interval: 8000,
+            interval: 4000,
 
         };
 
