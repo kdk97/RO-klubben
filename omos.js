@@ -18,15 +18,6 @@ const video1 = document.getElementById("video-1");
 videoObserver.observe(video1);
 
 
-
-document.getElementById("video-1").addEventListener("mouseover", function () {
-    this.play();
-});
-
-document.getElementById("video-1").addEventListener("mouseleave", function () {
-    this.pause();
-});
-
 // img
 function handler(entries) {
     for (const entry of entries) {
