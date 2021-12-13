@@ -10,7 +10,7 @@ ul {
 }
 
 .vid1 {
-    max-width: 500px;
+    max-width: 600px;
     margin: 70px auto;
     display: flex;
     align-content: center;
@@ -35,13 +35,14 @@ ul {
 
 .div1 img {
     max-height: 11cm;
-    max-width: 500px;
+    max-width: 600px;
     object-fit:cover;
     border-radius: 20px; 
 }
 
 .div1 p {
-    max-width: 500px;
+    max-width: 600px;
+    margin: 5%;
 }
 
 .div1 h2 {
@@ -51,8 +52,8 @@ ul {
 
 svg {
     max-height: 11cm;
-    max-width: 500px;
-
+    max-width: 100%;
+    margin: 5%;
 }
 
 
@@ -60,8 +61,8 @@ svg {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 15%;
     padding-top: 2cm;
     padding-bottom: 2cm;
     background-color: #EBF0F7;
@@ -69,8 +70,8 @@ svg {
 }
 
 .div2 p {
-    max-width: 500px;
-    
+    max-width: 600px;
+    margin: 5%;
 }
 
 .div2 h2 {
@@ -236,6 +237,8 @@ svg {
 
     .div1 {
         display: block;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     .div1 img { 
         max-width: 100%;
@@ -249,11 +252,14 @@ svg {
 
     .div2 {
         flex-direction: column-reverse;
+        padding-left: 5%;
+        padding-right: 5%;
+
     }
 
     svg {
         max-height: 11cm;
-        max-width: 100%;
+        max-width: 90%;
     }
 
     .div3box2 {
@@ -264,7 +270,9 @@ svg {
         margin: 0,auto;
     }
 
-
+    .space {
+        margin-left: 0%;
+    }
     .person {
         margin: auto;
         margin-bottom: 10px;
@@ -278,6 +286,10 @@ svg {
     h2 {
         text-align: center;
         padding: 0,0,0,0;
+    }
+
+    .vid1 {
+        width: 100%;
     }
 
     /*---------- Slideshow ----------*/
