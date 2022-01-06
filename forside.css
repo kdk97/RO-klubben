@@ -19,6 +19,7 @@ p{
     
 }
 
+
 .logo2 {
     width: 600px;
     display: block;
@@ -45,6 +46,7 @@ p{
     display: flex;
     margin: 0 auto;
     z-index: 1;
+    justify-content: center;
 }
 
 .contentbox {
