@@ -4,7 +4,8 @@ p {
 }
 
 .fuck1 {
-    width: 60%;
+    width: 80%;
+    height: 800px;
     margin: 70px auto;
     display: flex;
     align-content: center;

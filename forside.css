@@ -88,6 +88,12 @@ p{
     height: 250px;
 }
 
+.video20{
+    width: 80%;
+    height: 800px;
+    padding: 2%;
+}
+
 .fade-scale-in {
     transform: scale(0.7);
     opacity: 0;
